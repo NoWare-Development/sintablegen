@@ -8,6 +8,6 @@ But you also can provide your size of sin table in arguments.
 $ sintablegen 80000
 ```
 
-Output of __SinTableGen__ will be in file __sintable.h__
+Output of __SinTableGen__ will be in file `sintable.h`.
 
 You can also see an example output in [sintable.h](https://github.com/NoWare-Development/sintable.h) repository.
