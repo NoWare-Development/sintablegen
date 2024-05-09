@@ -3,7 +3,7 @@
 __SinTableGen__ is a simple utility to generate sin tables.
 
 Default size of the generated sin table is 65536.
-But you also can provide your size of sin table in arguments.
+But you also can provide your size of sin table through arguments.
 ```
 $ sintablegen 80000
 ```
