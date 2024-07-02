@@ -11,3 +11,13 @@ $ sintablegen 80000
 Output of __SinTableGen__ will be in file `sintable.h`.
 
 You can also see an example output in [sintable.h](https://github.com/NoWare-Development/sintable.h) repository.
+
+## Manual build
+__Tools__: [meson](https://mesonbuild.com/), [ninja](https://ninja-build.org/)
+
+```
+$ git clone https://github.com/NoWare-Development/sintablegen.git
+$ cd sintablegen
+$ meson setup build
+$ ninja -C build
+```
